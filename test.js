@@ -61,7 +61,7 @@ class Test extends Phaser.Scene {
             key: 'idle',
             frames: this.anims.generateFrameNumbers('idle', {
                 start: 0,
-                end: 8
+                end: 1
             }),
             frameRate: 7,
             repeat: -1
@@ -101,7 +101,7 @@ class Test extends Phaser.Scene {
             key: 'jump2',
             frames: this.anims.generateFrameNumbers('jump2', {
                 start: 0,
-                end: 8
+                end: 4
             }),
             frameRate: 10,
             repeat: -1
@@ -121,7 +121,7 @@ class Test extends Phaser.Scene {
             key: 'djump',
             frames: this.anims.generateFrameNumbers('djump', {
                 start: 0,
-                end: 8
+                end: 4
             }),
             frameRate: 10,
             repeat: -1
